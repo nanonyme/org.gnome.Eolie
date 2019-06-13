@@ -14,7 +14,7 @@
     "--env=GST_PLUGIN_PATH_1_0=/app/lib/gstreamer-1.0",
     "--env=SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt",
     "--filesystem=xdg-run/dconf",
-    "--filesystem=home",
+    "--filesystem=home:ro",
     "--filesystem=~/.config/dconf:rw",
     "--filesystem=~/.mozilla/firefox:rw",
     "--filesystem=~/.config/chromium:rw",
